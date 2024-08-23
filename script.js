@@ -76,39 +76,7 @@ function singleEventCard(eventId) {
   })
 }
 
-// caurosalItems()
-// function caurosalItems() {
 
-
-//   Events.sort((b, a) => new Date(b.date) - new Date(a.date));
-
-//   let caurosalDiv = document.getElementById('caurosalDiv');
-
-
-//   for (i = 0; i < 6; i++) {
-
-//     let caurosalSingleDiv = document.createElement('div');
-//     caurosalSingleDiv.className = 'item';
-//     // caurosalSingleDiv.style.backgroundImage = `url(${Events[i].imgUrls[1]})`;
-//     caurosalSingleDiv.style.backgroundPosition = 'center';
-//     caurosalSingleDiv.style.backgroundSize = 'cover';
-
-//     caurosalSingleDiv.innerHTML = `                       
-//                             <div  class="card carousal-card ">
-//                             <img src=${Events[i].imgUrls[1]} class="card-img-top" alt="...">
-//                             <div class="card-body">
-//                             <h5 class="card-title">${Events[i].eventName}</h5>
-//                             <p class="card-text">${Events[i].date.split('T')[0]}</p>
-//                             <p class="card-text"><small class="text-muted">${Events[i].location.city}</small></p>
-//                             </div>
-//                             </div>`;
-
-//     caurosalDiv.appendChild(caurosalSingleDiv);
-
-//   }
-
-
-// }
 
 document.addEventListener('DOMContentLoaded', function() {
   caurosalItems();
